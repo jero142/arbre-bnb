@@ -1,0 +1,143 @@
+.headerStyle {
+  color: rgb(185, 113, 30);
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.home-container {
+  background-image: url(/images/bg-tree-07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.treehouses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.first-house-container,
+.second-house-container,
+.third-house-container,
+.fourth-house-container,
+.fifth-house-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 1.5;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  border-radius: 10px;
+  width: min(95%, 1400px);
+  padding: 2rem;
+  margin: 0 auto 60px auto;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+  > div:nth-child(1), > div:nth-child(2) {
+    p {
+      width: 100%;
+      margin: 0;
+      font-size: clamp(1rem, 2vw, 1.3rem);
+      line-height: 1.5;
+      text-align: justify;
+    }
+  }
+}
+
+.first-house-container {
+  background: linear-gradient(90deg, rgba(78, 42, 0, 0.925) 0%, rgba(155, 88, 0, 0.904) 50%, rgba(237, 170, 83, 0.815) 100%);
+}
+
+.second-house-container {
+  background: linear-gradient(-90deg, rgba(78, 42, 0, 0.925) 0%, rgba(155, 88, 0, 0.904) 50%, rgba(237, 170, 83, 0.815) 100%);
+}
+
+.third-house-container {
+  background: linear-gradient(90deg, rgba(42, 123, 155, 0.507) 0%, rgba(87, 199, 134, 0.596) 50%, rgba(237, 221, 83, 0.493) 100%);
+}
+
+.fourth-house-container {
+  background: linear-gradient(-90deg, rgba(42, 123, 155, 0.507) 0%, rgba(87, 199, 134, 0.596) 50%, rgba(237, 221, 83, 0.493) 100%);
+}
+
+.fifth-house-container {
+  background: linear-gradient(90deg, rgba(42, 123, 155, 0.507) 0%, rgba(87, 199, 134, 0.596) 50%, rgba(237, 221, 83, 0.493) 100%);
+}
+
+.image-treehouse-1-container,
+.image-treehouse-2-container,
+.image-treehouse-3-container,
+.image-treehouse-4-container,
+.image-treehouse-5-container {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0;
+}
+
+.image-treehouse-1,
+.image-treehouse-2,
+.image-treehouse-3,
+.image-treehouse-4,
+.image-treehouse-5 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .first-house-container,
+  .second-house-container,
+  .third-house-container,
+  .fourth-house-container,
+  .fifth-house-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+
+    > div {
+      width: 100%;
+    }
+  }
+
+  .image-treehouse-1-container,
+  .image-treehouse-2-container,
+  .image-treehouse-3-container,
+  .image-treehouse-4-container,
+  .image-treehouse-5-container {
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto 20px auto;
+  }
+
+  .image-treehouse-1,
+  .image-treehouse-2,
+  .image-treehouse-3,
+  .image-treehouse-4,
+  .image-treehouse-5 {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .treehouses-container {
+    padding: 0 10px;
+  }
+
+  .headerStyle {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+}
