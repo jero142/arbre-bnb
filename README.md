@@ -1,12 +1,41 @@
-# React + Vite
+Arbre Bnb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Arbre Bnb** is a fully responsive and immersive booking website for nature-inspired treehouse accommodations. Designed like a digital travel journal, the interface offers users a calm, inviting experience while browsing unique stays and making reservations with ease.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Beautiful Treehouse Listings – Each listing features images, descriptions, prices, and amenities.
 
-## Expanding the ESLint configuration
+- Interactive Image Gallery – Lightbox photo viewing for each treehouse.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Booking Form – Users can select a date range and instantly see the total price.
+
+- Date Validation – Past dates are disabled to prevent invalid bookings.
+
+- Responsive Design – Optimized for all devices, including desktops, tablets, and smartphones.
+
+- Themed Styling – Custom SCSS styling creates a warm, woodsy visual atmosphere.
+
+- Dynamic Navigation – Auto-show navbar when hovering near the top of the screen.
+
+Tech Stack
+
+- **React**
+
+- **React Router**
+
+- **React DatePicker** – Date selection component
+
+- **SCSS** – (modular styling)
+
+- **Yet-Another-React-Lightbox** – For gallery view
+
+- **Vite** – (fast dev environment)
+
+- **GitHub Pages** – (deployment)
+
+Author
+
+Jerome Collombier
+
+Frontend Developer
