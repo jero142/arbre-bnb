@@ -26,16 +26,14 @@ Tech Stack
 
 - **React DatePicker** – Date selection component
 
-- **SCSS** – (modular styling)
+- **Sass** – (modular styling)
 
 - **Yet-Another-React-Lightbox** – For gallery view
 
 - **Vite** – (fast dev environment)
 
-- **GitHub Pages** – (deployment)
-
 Author
 
 Jerome Collombier
 
-Frontend Developer
+Front-End Developer
